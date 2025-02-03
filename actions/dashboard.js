@@ -42,6 +42,11 @@ export const generateAIInsights = async (industry) => {
     insights.demandLevel = insights.demandLevel.toUpperCase(); // Convert to uppercase (HIGH, MEDIUM, LOW)
   }
 
+  // Ensure the marketOutlook is capitalized correctly
+  if (insights.marketOutlook) {
+    insights.marketOutlook = insights.marketOutlook.toUpperCase(); // Convert to uppercase (POSITIVE, NEGATIVE, STABLE)
+  }
+
   return insights;
 
   
