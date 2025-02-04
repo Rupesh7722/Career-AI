@@ -22,6 +22,15 @@ export default function RootLayout({ children }) {
     <html lang="en" suppressHydrationWarning>
       <head>
           <link rel="icon" href="/logo5.png" sizes="any" />
+
+          {/* Google Analytics Tag : Google tag (gtag.js) */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNGSLBEB2L"></script>
+          <script dangerouslySetInnerHTML={{ __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-NNGSLBEB2L');
+          `}} />
       </head>
       <body
         className={`${inter.className}`}
