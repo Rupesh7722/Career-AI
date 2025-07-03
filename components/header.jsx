@@ -12,14 +12,15 @@ const Header = async() => {
 
   return (
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 supports-[backdrop-filter]:bg-background/60">
-      <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
+      <nav className="pr-4 h-full w-full flex items-center justify-between">
         <Link href="/">
           <Image
-            src={"/logo5.png"}
-            alt="JobGeniusAI Logo"
-            width={200}
-            height={60}
-            className="h-12 py-1 w-auto object-contain"
+            src={"/image.png"}
+            alt="/Logo"
+            width={100}
+            height={7}
+            className='h-12 w-full'
+          
           />
         </Link>
 
