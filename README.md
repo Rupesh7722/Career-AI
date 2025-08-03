@@ -1,5 +1,3 @@
-![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=flat&color=BC4E99)
-
 <h1 align="center">💼 Career-AI 🤖</h1>
 
 
@@ -14,7 +12,8 @@
 - 💾 Database Management (Neon PostgreSQL)  
 - 💻 Modern, Responsive UI Design  
 - 🎭 Client & Server Components with seamless integration  
-- 🌐 Deployed for high performance on Vercel  
+- 🌐 Deployed for high performance on Vercel
+- 🤝 **Collaborated in a 3-member team** to design, develop, and deploy the platform efficiently
 
 ## ✨ Features
 
